@@ -1,6 +1,6 @@
 # Local MCP for Cursor
 
-Connect Cursor to **Mail, Calendar, Contacts, Microsoft Teams & OneDrive** on macOS. Everything runs locally on your Mac -- no cloud, no tokens, no API keys.
+Connect Cursor to **Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp & OneDrive** on macOS. Everything runs locally on your Mac -- no cloud, no tokens, no API keys.
 
 ## Install
 
@@ -14,7 +14,7 @@ That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local
 
 ## Features
 
-**92 tools** across 15 categories:
+**111 tools** across 18 categories:
 
 ### Email (Mail.app)
 - List mailboxes and messages
@@ -35,6 +35,16 @@ That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local
 - List teams and channels
 - Read channel messages
 
+### Slack
+- List workspaces and channels (public, private, DMs)
+- Read and search messages locally (IndexedDB cache — no tokens)
+
+### WhatsApp
+- List chats and read messages
+- Full-text search across chats
+- Send text messages and files (with preview + confirm)
+- ⚠️ Uses the unofficial [Wacli](https://github.com/steipete/wacli) client — requires QR-code sign-in; accounts may be restricted for ToS violations
+
 ### OneDrive
 - List, read, write, delete, move files
 - Search across OneDrive accounts
@@ -44,6 +54,11 @@ That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local
 - Create, read, and edit Excel spreadsheets
 - Create and read PowerPoint presentations
 - Read PDF files
+
+### NordVPN
+- Check connection status
+- Recommend servers by country/specialty
+- Diagnose install and protocols
 
 ## Privacy
 
