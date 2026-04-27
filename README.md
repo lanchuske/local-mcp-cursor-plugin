@@ -1,6 +1,6 @@
 # Local MCP for Cursor
 
-Connect Cursor to **Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp & OneDrive** on macOS. Everything runs locally on your Mac -- no cloud, no tokens, no API keys.
+Connect Cursor to **Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp & OneDrive** on macOS and Windows. Everything runs locally on your machine -- no cloud, no tokens, no API keys.
 
 ## Install
 
@@ -62,7 +62,7 @@ That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local
 
 ## Privacy
 
-- 100% local: all data stays on your Mac
+- 100% local: all data stays on your machine
 - No cloud relay, no tokens, no API keys required
 - GDPR compliant by design
 - Works offline (except Teams and OneDrive which need their local caches)
