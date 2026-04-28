@@ -14,7 +14,7 @@ That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local
 
 ## Features
 
-**111 tools** across 18 categories:
+**189 tools** across 18 categories:
 
 ### Email (Mail.app)
 - List mailboxes and messages
