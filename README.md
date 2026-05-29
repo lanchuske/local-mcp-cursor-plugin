@@ -72,3 +72,9 @@ That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local
 - [Website](https://local-mcp.com)
 - [npm package](https://www.npmjs.com/package/local-mcp)
 - [Main repo](https://github.com/lanchuske/office-mcp)
+
+## 📬 Stay Updated
+
+Get notified about new tools, bug fixes and major releases — no spam.
+
+**[Subscribe to release notes →](https://local-mcp.com/#newsletter)**
