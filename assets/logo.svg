@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="hubGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#6366f1"/>
+    </radialGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Dark circular background -->
+  <circle cx="256" cy="256" r="235" fill="#0c0c12"/>
+  <circle cx="256" cy="256" r="235" fill="none" stroke="rgba(80,90,180,0.24)" stroke-width="2"/>
+
+  <!-- Lines from hub to peripheral nodes -->
+  <line x1="256" y1="185" x2="256" y2="86"   stroke="rgba(99,102,241,0.39)" stroke-width="6"/>
+  <line x1="317" y1="220" x2="403" y2="171"  stroke="rgba(116,98,243,0.39)" stroke-width="6"/>
+  <line x1="317" y1="292" x2="403" y2="341"  stroke="rgba(151,93,245,0.39)" stroke-width="6"/>
+  <line x1="256" y1="327" x2="256" y2="426"  stroke="rgba(168,85,247,0.39)" stroke-width="6"/>
+  <line x1="195" y1="292" x2="109" y2="341"  stroke="rgba(151,93,245,0.39)" stroke-width="6"/>
+  <line x1="195" y1="220" x2="109" y2="171"  stroke="rgba(116,98,243,0.39)" stroke-width="6"/>
+
+  <!-- Peripheral nodes -->
+  <circle cx="256" cy="86"  r="52" fill="rgba(99,102,241,0.78)"/>
+  <circle cx="403" cy="171" r="52" fill="rgba(116,98,243,0.78)"/>
+  <circle cx="403" cy="341" r="52" fill="rgba(151,93,245,0.78)"/>
+  <circle cx="256" cy="426" r="52" fill="rgba(168,85,247,0.78)"/>
+  <circle cx="109" cy="341" r="52" fill="rgba(151,93,245,0.78)"/>
+  <circle cx="109" cy="171" r="52" fill="rgba(116,98,243,0.78)"/>
+
+  <!-- Hub glow -->
+  <circle cx="256" cy="256" r="110" fill="rgba(99,102,241,0.12)"/>
+  <circle cx="256" cy="256" r="100" fill="rgba(99,102,241,0.08)"/>
+
+  <!-- Central hub -->
+  <circle cx="256" cy="256" r="71" fill="url(#hubGrad)"/>
+
+  <!-- White center dot -->
+  <circle cx="256" cy="256" r="18" fill="rgba(255,255,255,0.78)"/>
+</svg>
