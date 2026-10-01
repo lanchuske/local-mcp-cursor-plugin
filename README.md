@@ -1,6 +1,6 @@
 # Local MCP for Cursor
 
-Connect Cursor to **Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion** and everything else on your Mac. Everything runs locally on your machine -- no cloud, no tokens, no API keys.
+Connect Cursor to **Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion** and more on your Mac or Windows PC. The tools run on your computer -- no tokens, no API keys.
 
 ## Install
 
@@ -10,11 +10,11 @@ Run this command in the Cursor command palette:
 /add-plugin lanchuske/local-mcp-cursor-plugin
 ```
 
-That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local-mcp) npm package under the hood -- it auto-detects the free LMCP app running on your Mac and connects over a local stdio connection.
+That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local-mcp) npm package under the hood -- it auto-detects the free LMCP app running on your computer and connects over a local stdio connection.
 
 ## Features
 
-**235 tools** across 25+ domains, including:
+**192+ tools** on macOS, including (Windows has a subset: the Apple-native ones exist only on macOS):
 
 ### Email (Mail.app)
 - List mailboxes and messages
@@ -53,20 +53,21 @@ Notes, Reminders, Messages (iMessage), Safari, Chrome, OmniFocus, Notion, Finder
 
 ## Requirements
 
-- macOS 13 (Ventura) or later
+- macOS 13 (Ventura) or later, or Windows 10 or later
 - The free [LMCP](https://local-mcp.com) app installed and running (menu-bar app)
 
 ## Privacy
 
-- 100% local: all data stays on your machine
-- No cloud relay, no tokens, no API keys required
-- GDPR compliant by design
+Tools run on your computer, and there are no API keys or tokens to manage. LMCP does not make
+your AI provider local: the assistant you use receives the content you ask it to read, under its
+own terms. Connecting a browser-based assistant (claude.ai or ChatGPT on the web) additionally
+routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
 
 ## Links
 
 - [Website](https://local-mcp.com)
 - [npm package](https://www.npmjs.com/package/local-mcp)
-- [Main repo](https://github.com/lanchuske/local-mcp)
+- [Releases](https://github.com/lanchuske/local-mcp-releases)
 
 ## 📬 Stay Updated
 
