@@ -10,7 +10,13 @@ Run this command in the Cursor command palette:
 /add-plugin lanchuske/local-mcp-cursor-plugin
 ```
 
-That's it. The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local-mcp) npm package under the hood -- it auto-detects the free LMCP app running on your computer and connects over a local stdio connection.
+If Cursor does not find the plugin, run this in a terminal instead. It installs LMCP and adds it to Cursor's MCP settings:
+
+```bash
+npx -y local-mcp@latest setup
+```
+
+The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local-mcp) npm package under the hood -- it auto-detects the free LMCP app running on your computer and connects over a local stdio connection.
 
 ## Features
 
