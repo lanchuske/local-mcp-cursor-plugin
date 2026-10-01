@@ -1,82 +1,23 @@
-# Local MCP for Cursor
+# Local MCP for Cursor (moved)
 
-Connect Cursor to **Mail, Calendar, Contacts, Microsoft Teams, Slack, WhatsApp, OneDrive, Google Drive, Notion** and more on your Mac or Windows PC. The tools run on your computer -- no tokens, no API keys.
+**This repository is archived.** The Cursor plugin for LMCP now lives in
+**[lanchuske/local-mcp-releases](https://github.com/lanchuske/local-mcp-releases#cursor-plugin)**,
+together with a rule that tells Cursor's agent when to use LMCP and skills for email, calendar,
+messages, files and Office.
 
-## Install
+## Install LMCP for Cursor
 
-Run this command in the Cursor command palette:
-
-```
-/add-plugin lanchuske/local-mcp-cursor-plugin
-```
-
-If Cursor does not find the plugin, run this in a terminal instead. It installs LMCP and adds it to Cursor's MCP settings:
+Run this in a terminal. It installs LMCP and adds it to Cursor's MCP settings:
 
 ```bash
 npx -y local-mcp@latest setup
 ```
 
-The plugin uses the [`local-mcp`](https://www.npmjs.com/package/local-mcp) npm package under the hood -- it auto-detects the free LMCP app running on your computer and connects over a local stdio connection.
-
-## Features
-
-**192+ tools** on macOS, including (Windows has a subset: the Apple-native ones exist only on macOS):
-
-### Email (Mail.app)
-- List mailboxes and messages
-- Read, search, send, reply, forward
-- Move messages between mailboxes
-- Save attachments
-
-### Calendar & Contacts
-- List calendars and events; create, update, delete events
-- List and search contacts across all address book sources
-
-### Microsoft Teams & Outlook
-- List chats, teams, and channels; read messages
-- Microsoft 365 / Graph: email, calendar, contacts, people insights
-
-### Slack
-- List workspaces and channels (public, private, DMs)
-- Read and search messages locally (IndexedDB cache -- no tokens)
-
-### WhatsApp
-- List chats and read messages; full-text search across chats
-- Send text messages and files (with preview + confirm)
-
-### OneDrive & Google Drive
-- List, read, write, delete, move files
-- Search across accounts
-
-### Office Documents
-- Create and read Word documents
-- Create, read, and edit Excel spreadsheets
-- Create and read PowerPoint presentations
-- Read PDF files
-
-### Also included
-Notes, Reminders, Messages (iMessage), Safari, Chrome, OmniFocus, Notion, Finder, Stocks, Weather, To Do, ServiceNow, and more.
-
-## Requirements
-
-- macOS 13 (Ventura) or later, or Windows 10 or later
-- The free [LMCP](https://local-mcp.com) app installed and running (menu-bar app)
-
-## Privacy
-
-Tools run on your computer, and there are no API keys or tokens to manage. LMCP does not make
-your AI provider local: the assistant you use receives the content you ask it to read, under its
-own terms. Connecting a browser-based assistant (claude.ai or ChatGPT on the web) additionally
-routes through an encrypted relay. Details: https://local-mcp.com/en/privacy
+Or download the installer for macOS or Windows from **[local-mcp.com/download](https://local-mcp.com/download)**.
 
 ## Links
 
 - [Website](https://local-mcp.com)
+- [Current plugin and releases](https://github.com/lanchuske/local-mcp-releases)
 - [npm package](https://www.npmjs.com/package/local-mcp)
-- [Releases](https://github.com/lanchuske/local-mcp-releases)
-
-## 📬 Stay Updated
-
-Get notified about new tools, bug fixes and major releases — no spam.
-
-**[Subscribe to release notes →](https://local-mcp.com/#newsletter)**
+- Support: support@local-mcp.com
