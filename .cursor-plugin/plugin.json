@@ -2,7 +2,7 @@
   "name": "local-mcp",
   "displayName": "Local MCP",
   "author": "Local MCP",
-  "description": "Connect AI to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive & Notion on Mac. 235 tools, 100% local — no cloud, no tokens. GDPR compliant.",
+  "description": "Connect Cursor to Mail, Calendar, Contacts, Teams, Slack, WhatsApp, OneDrive, Google Drive & Notion on your Mac (192+ tools) or Windows PC. Tools run on your computer — no tokens, no API keys.",
   "keywords": ["email", "calendar", "contacts", "teams", "slack", "whatsapp", "onedrive", "googledrive", "notion", "macos", "mcp", "privacy"],
   "license": "MIT",
   "homepage": "https://local-mcp.com",
